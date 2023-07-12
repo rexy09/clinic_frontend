@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Getting Started with Clinic ReactJs App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App.
 
-## Available Scripts
+## System Requirements
+### Node.js
 
-In the project directory, you can run:
+1. First make sure your machine is running Node.js:
+  
+Open a terminal or command prompt and verify the installation by running the following command:
+  ```
+  node -v
+  ```
+This command will display the installed Node.js version. 
 
-### `yarn start`
+2. If you don't have Node.js visit the official website at https://nodejs.org.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On the Node.js website, you will see two versions available for download: LTS (Long-Term Support) and Current. It is recommended to download the LTS version for stability unless you specifically require features from the Current version.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Choose the appropriate installer for your operating system. Node.js is available for Windows, macOS, and Linux. Click on the download link for your desired version and operating system.
 
-### `yarn test`
+Once the installer is downloaded, run it and follow the installation wizard instructions. You may need administrative privileges to install Node.js on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During the installation, you can choose the installation directory and other options according to your preferences. In most cases, the default options should work fine.
 
-### `yarn build`
+After the installation is complete, open a terminal or command prompt and verify the installation by running the following command:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ```
+  node -v
+  ```
+### yarn
+1. First make sure your machine is running `yarn`:
+  
+Open a terminal or command prompt and verify the installation by running the following command:
+  ```
+yarn --version
+  ```
+This command will display the installed Yarn version.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. If you don't have yarn visit the official website at https://yarnpkg.com.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+On the Yarn website, you'll find installation instructions for different operating systems. Choose the appropriate installation method based on your operating system.
 
-### `yarn eject`
+After the installation is complete, open a new terminal or command prompt window and verify the installation by running the following command:
+ ```
+yarn --version
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open a terminal or command prompt and clone the repository to your machine:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ```
+  git clone https://github.com/rexy09/clinic_frontend.git
+  ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the root directory of the project.
+3. Install project dependencies by running the following command:
+  ```
+  yarn install
+  ```
+This will download and install all the required packages specified in the package.json file.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Once the installation is complete, start the development server with the following command:
+ ```
+ yarn start
+  ```
+This will start the React development server and launch your project in a web browser. The development server automatically watches for changes to your code and updates the browser accordingly.
